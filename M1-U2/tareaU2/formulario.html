@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <p>Acá van tus datos personales </p>
+    <h5>
+        <form action="" method=""> <!--Comienza el formulario-->
+            Marcá el correcto
+            <p>
+                <input type="checkbox">Hombre <!--Opciones para elegir-->
+                <input type="checkbox">Mujer
+            </p>
+            <p>Completá con tus datos</p>
+            <ul>
+                <li>
+                    <label for="nombre">Ingresá tu nombre:</label>
+                    <input type="text" placeholder="Nombre y apellido" maxlength="30" id="nombre"><!--PLACEHOLDER lleva el cursor al campo a completar-->
+                </li>
+                <P></P>
+                <li>
+                    <label for="edad">Ingresá tu edad:</label>
+                    <input type="text" placeholder="Edad" maxlength="2" id="edad">
+                </li>
+                <P></P>
+                <li>
+                    <label for="domicilio">Ingresá tu domicilio:</label>
+                    <input type="text" placeholder="Domicilio" maxlength="30" id="domicilio">
+                </li>
+            </ul>
+            <label>Hobbies</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="dibujar" id="dibujar" />
+                    <label for="dibujar">Dibujar</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies []" value="deportes" id="deportes">
+                    <label for="deportes">Deportes</label>
+                    <label for="deporte">¿Cuál?</label>
+                    <input type="text" placeholder="Deporte" maxlength="20" id="deporte">
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies []" value="mirar series" id="mirar series" />
+                    <label for="mirar series">Mirar series</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="hobbies[]" value="escuchar musica" id="escuchar musica" />
+                    <label for="escuchar musica">Escuchar música</label>
+                </li>
+
+            </ul>
+            <p>
+                <label for="titutlo">Título</label>
+                <select name="titutlo">
+                    <option value="primario">Primario</option><!--OPTION: despliega opciones, se elige una-->
+                    <option value="secundario">Secundario</option>
+                    <option value="terciario">Terciario</option>
+                    <option value="universitario">Universitario</option>
+                </select>
+            </p>
+            <p>
+                <label for="comentarios">Comentarios</label>
+                <textarea name="comentarios"></textarea>
+            </p>
+            <p>Registrate</p>
+            <label for="email">Email</label>
+            <input type="email" />
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" />
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Borrar">
+            </p>
+
+
+        </form>
+
+
+    </h5>
+
+</body>
+
+</html>
