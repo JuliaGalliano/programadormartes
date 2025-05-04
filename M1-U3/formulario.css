@@ -1,0 +1,26 @@
+.destacado{
+    color:black;
+    font-weight: bold; 
+    font-size: xx-large;
+}
+h5{
+    font-size: large;
+    text-align:left;
+    color: white;
+}
+form {
+    position:static;
+    width: 400px;
+    padding: 10px;
+    background-color:cadetblue;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+
+
+

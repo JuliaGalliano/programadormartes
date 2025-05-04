@@ -1,0 +1,61 @@
+p {
+    color: violet;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    background-color: yellow;
+    /*width: 1000px;*/
+    /*height: 200px;*/
+    font-weight: bold;
+}
+
+h2 {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    font-style: italic;
+    text-align: center;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-shadow: 35px 36px 5px 4px rgba(0,0,0,0.75);
+}
+.destacado {
+    color: black;
+    font-style: italic;
+}
+.destacado {
+    color: red;
+    font-style: italic;
+}
+#caja2{
+    background-color: blueviolet;
+    color: brown;
+    width: 100px;
+    height: 100px;
+}
+.caja_x {
+    position: relative;
+    left: 50px; /*se mueve a la izquierda*/
+    top: 100px; /*se mueve hacia abajo*/
+    width: 150px;
+    height: 200px;
+    background-color: red;
+}
+.caja_y {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: darkgrey;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}

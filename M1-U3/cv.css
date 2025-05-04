@@ -1,0 +1,52 @@
+h1 {
+    color: blueviolet;
+    text-shadow: 2px 2px 13px rgba(0, 0, 0, 0.63);
+    background-color: beige;
+}
+
+h2 {
+    filter: sepia(91%) brightness(58%) saturate(267%) opacity(88%) contrast(74%) invert(1%) drop-shadow(6px 14px 18px #000000);
+    -webkit-filter: sepia(91%) brightness(58%) saturate(267%) opacity(88%) contrast(74%) invert(1%) drop-shadow(6px 14px 18px #000000);
+    -moz-filter: sepia(91%) brightness(58%) saturate(267%) opacity(88%) contrast(74%) invert(1%) drop-shadow(6px 14px 18px #000000);
+    border-top: 10px groove rgba(27, 12, 3, 0.79);
+    border-right: 10px groove rgba(27, 12, 3, 0.79);
+    border-bottom: 10px groove rgba(51, 13, 7, 0.91);
+    border-left: 10px groove rgba(51, 13, 7, 0.91);
+    margin-right: 800px;
+
+}
+
+h4 {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.destacado {
+    font-style: italic;
+    color: black;
+}
+
+.marcado {
+    color: red;
+}
+
+h5 {
+    background-color: aqua;
+    font-family: verdana;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    border-radius: 0px 172px 200px 191px;
+    -webkit-border-radius: 0px 172px 200px 191px;
+    -moz-border-radius: 0px 172px 200px 191px;
+    border: 11px double #080808;
+    background: grey;
+}
+h6{
+    font-family:'Courier New';
+    font-size:larger;
+    color:black;
+    font-weight:bolder;
+}
